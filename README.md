@@ -44,9 +44,25 @@ rather than a polished plotting library.
 
 ---
 
-## Build & Run
 
-Compile and run using a standard C compiler:
+Known Limitations
 
-```bash
-gcc graphs.c -o graphs && ./graphs
+-Only supports the first quadrant (no negative coordinates)
+-Extreme values may still cause visual crowding due to finite grid size
+-Out-of-bounds protection for all edge cases is documented but not fully enforced
+-ASCII resolution limits precision (by design)
+-These limitations are acknowledged intentionally and documented in code comments.
+
+---
+
+Acknowledgement
+
+This project was fully written by me, including all logic, structure,
+and implementation decisions.
+I used ChatGPT as a learning aid only for:
+-Clarifying C language behavior (e.g., input handling, edge cases)
+-Discussing design tradeoffs (scaling strategies, rounding effects)
+-Reviewing logic at a conceptual level
+No code was generated or copied directly.
+All implementation decisions and final code were authored by me.
+
