@@ -60,9 +60,13 @@ Acknowledgement
 This project was fully written by me, including all logic, structure,
 and implementation decisions.
 I used ChatGPT as a learning aid only for:
--Clarifying C language behavior (e.g., input handling, edge cases)
--Discussing design tradeoffs (scaling strategies, rounding effects)
--Reviewing logic at a conceptual level
+-Clarifying C language behavior IEEE754 ERRORS.
+-Discussing design tradeoffs, better user perspective.
+-learning to use github.
 No code was generated or copied directly.
 All implementation decisions and final code were authored by me.
+
+
+
+-xerotheta
 
