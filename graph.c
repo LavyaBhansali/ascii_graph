@@ -166,8 +166,8 @@ int main()
     quadrant[row-2][3]='+';
     quadrant[row-2][column-1]='>';
     quadrant[row-1][1]='o';
-    quadrant[row-2][1]='*';       
-    quadrant[row-1][3]='*';
+    //quadrant[row-2][1]='*';       
+    //quadrant[row-1][3]='*';
 
      //see if these line can be avoided by using this in loop
      //not feasible
@@ -179,8 +179,8 @@ int main()
 
         if (i%5==0)
         {
-            quadrant[i-2][1]='*';
-            quadrant[row-1][i*2+3]='*';
+            quadrant[i-1][1]='*';
+            quadrant[row-1][i*2+1]='*';
         }
     }
 
